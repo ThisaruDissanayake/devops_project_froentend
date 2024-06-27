@@ -5,6 +5,7 @@ pipeline {
         DOCKER_IMAGE = 'maleeshaNode'
         DOCKER_TAG = 'latest'
         DOCKER_REPO = 'mitd0011/devproject'
+        DOCKER_HOST = 'unix:///var/run/docker.sock' 
     }
 
     stages {
